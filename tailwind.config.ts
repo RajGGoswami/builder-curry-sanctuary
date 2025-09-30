@@ -19,6 +19,11 @@ export default {
         ring: "hsl(var(--ring))",
         background: "hsl(var(--background))",
         foreground: "hsl(var(--foreground))",
+        // Figma design colors
+        'teal-primary': '#47ABAB',
+        'cream-bg': '#F5F1E8',
+        'text-gray': '#6B7280',
+        'teal-decorative': 'rgba(71, 171, 171, 0.2)',
         primary: {
           DEFAULT: "hsl(var(--primary))",
           foreground: "hsl(var(--primary-foreground))",
