@@ -5,6 +5,8 @@ import { createServer } from "./server";
 
 // https://vitejs.dev/config/
 export default defineConfig(({ mode }) => ({
+  base: "/builder-curry-sanctuary/", // 👈 Add this for GitHub Pages
+
   server: {
     host: "::",
     port: 8080,
