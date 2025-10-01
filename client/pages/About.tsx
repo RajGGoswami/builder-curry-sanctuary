@@ -108,10 +108,10 @@ export default function About() {
             </div>
 
             {/* Video Player */}
-            <div 
+            <div
               className="relative w-full rounded-3xl border border-white/20 shadow-2xl overflow-hidden"
               style={{
-                height: '505px',
+                height: 'clamp(320px, 50vw, 505px)',
                 background: 'rgba(255, 255, 255, 0.80)',
                 boxShadow: '0 25px 50px -12px rgba(0, 0, 0, 0.25)'
               }}
