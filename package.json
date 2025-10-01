@@ -10,11 +10,11 @@
       "dist/server/**/*.js"
     ]
   },
-"scripts": {
-  "build": "vite build",
-  "predeploy": "npm run build",
-  "deploy": "gh-pages -d dist"
-},
+  "scripts": {
+    "build": "vite build",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d dist"
+  },
   "dependencies": {
     "dotenv": "^17.2.1",
     "express": "^5.1.0",
