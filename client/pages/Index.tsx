@@ -1,11 +1,14 @@
+import Navigation from '../components/Navigation';
+
 export default function Index() {
   return (
-    <div 
+    <div
       className="min-h-screen bg-cream-bg flex items-center justify-center relative overflow-hidden"
       style={{
         background: 'linear-gradient(135deg, #F5F1E8 0%, #F5F1E8 50%, rgba(232, 244, 244, 0.30) 100%)'
       }}
     >
+      <Navigation />
       {/* Decorative Elements */}
       <div className="absolute inset-0 opacity-20 hidden lg:block">
         {/* Plus icon - top left */}
