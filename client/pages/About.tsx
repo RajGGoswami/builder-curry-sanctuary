@@ -30,23 +30,23 @@ export default function About() {
             </div>
             
             {/* Profile Section */}
-            <div className="flex flex-col lg:flex-row items-start gap-19 w-full">
+            <div className="flex flex-col lg:flex-row items-start gap-12 lg:gap-16 w-full">
               {/* Profile Image */}
-              <div className="flex-shrink-0">
-                <div 
+              <div className="flex-shrink-0 mx-auto lg:mx-0">
+                <div
                   className="bg-teal-primary/10 rounded-full overflow-hidden"
                   style={{ width: '288px', height: '288px' }}
                 >
-                  <img 
+                  <img
                     src="https://api.builder.io/api/v1/image/assets/TEMP/4086dca41231284cb5756d896135085f85550725?width=576"
                     alt="Raj - Product Owner"
                     className="w-full h-full object-cover"
                   />
                 </div>
               </div>
-              
+
               {/* Profile Text */}
-              <div className="flex flex-col gap-8 flex-1 lg:ml-19">
+              <div className="flex flex-col gap-8 flex-1">
                 <h2 
                   className="text-teal-primary font-arimo font-bold"
                   style={{
