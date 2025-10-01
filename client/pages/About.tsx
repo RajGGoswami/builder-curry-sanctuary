@@ -130,21 +130,21 @@ export default function About() {
                 />
                 
                 {/* Decorative circles */}
-                <div 
-                  className="absolute border-2 border-white/30 rounded-full opacity-[0.26]"
+                <div
+                  className="absolute border-2 border-white/30 rounded-full opacity-[0.26] hidden sm:block"
                   style={{
-                    width: '177px',
-                    height: '177px',
+                    width: 'clamp(120px, 15vw, 177px)',
+                    height: 'clamp(120px, 15vw, 177px)',
                     left: '50%',
                     top: '32%',
                     transform: 'translateX(-50%)'
                   }}
                 />
-                <div 
-                  className="absolute border-2 border-white/50 rounded-full opacity-[0.03]"
+                <div
+                  className="absolute border-2 border-white/50 rounded-full opacity-[0.03] hidden sm:block"
                   style={{
-                    width: '120px',
-                    height: '120px',
+                    width: 'clamp(80px, 10vw, 120px)',
+                    height: 'clamp(80px, 10vw, 120px)',
                     left: '50%',
                     top: '38%',
                     transform: 'translateX(-50%)'
@@ -152,17 +152,21 @@ export default function About() {
                 />
 
                 {/* Duration badge */}
-                <div 
-                  className="absolute top-6 right-6 px-4 py-2 rounded-full bg-black/50"
-                  style={{ minWidth: '59px', height: '40px' }}
+                <div
+                  className="absolute top-4 right-4 sm:top-6 sm:right-6 px-3 py-2 rounded-full bg-black/50 flex items-center justify-center"
+                  style={{ minWidth: '59px', height: '32px' }}
                 >
                   <span className="text-white font-arimo text-sm leading-5">5:30</span>
                 </div>
 
                 {/* Play button */}
-                <div 
+                <div
                   className="absolute left-1/2 top-1/2 transform -translate-x-1/2 -translate-y-1/2 flex items-center justify-center rounded-full bg-white/90 shadow-2xl cursor-pointer hover:bg-white transition-colors duration-200"
-                  style={{ width: '96px', height: '96px', paddingLeft: '4px' }}
+                  style={{
+                    width: 'clamp(64px, 8vw, 96px)',
+                    height: 'clamp(64px, 8vw, 96px)',
+                    paddingLeft: '4px'
+                  }}
                 >
                   <svg 
                     width="48" 
